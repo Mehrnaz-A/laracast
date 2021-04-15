@@ -1,10 +1,5 @@
 <?php
 
-/*require 'core/bootstrap.php';
-
-require Router::load('routes.php')
-    ->direct(Request::uri(), Request::method());*/
-
 $servername = "localhost";
 $username = "root";
 $password = "3eznyRPCzADUfi";
@@ -22,6 +17,6 @@ try{
 }catch (PDOException $e){
     die('</br>Could not connect. ');
 }
-$pdo->prepare('INSERT INTO users (id, name) VALUES (10,"Mehr10")');
+$pdo->prepare('INSERT INTO users (id, name) VALUES (6,"Joe")');
 echo "</br>Etter Database." ;
 echo "</br>befor database connection" ;

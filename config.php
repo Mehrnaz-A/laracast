@@ -2,12 +2,12 @@
 
 return [
     'database' => [
-        'name' => 'mytodo',
+        'name' => 'todos',
         'username' => 'root',
-        'password' => '',
+        'password' => '3eznyRPCzADUfi',
         'connection' => 'mysql:host=127.0.0.1',
         'options' => [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT
         ]
     ]
 ];

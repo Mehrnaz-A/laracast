@@ -1,2 +1,3 @@
-</body>
+<?php echo "Footer"?></body>
+
 </html>

@@ -5,4 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require('nav.php'); ?>
+    <?php
+echo "Im in header";
+require('nav.php');
+?>
