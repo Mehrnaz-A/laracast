@@ -2,18 +2,18 @@
 
 class Router
 {
-    public $routes = [
+    public array $routes = [
         'GET' => [],
         'POST' => []
     ];
 
-    public static function load($file)
+    public static function load($file): static
     {
         $router = new static;
 
-        require $file;
+        require "$file";
 
-        return $router;
+        return "$router";
     }
 
     public function get($uri, $controller)
